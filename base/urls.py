@@ -5,7 +5,7 @@ from django.conf import settings
 
 urlpatterns = [
     
-    path('tourist-guide-form/', views.tourist, name = 'tourist-guide-form'),
+    path('', views.home, name = 'home'),
    
 
 ]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
